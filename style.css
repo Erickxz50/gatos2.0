@@ -1,0 +1,172 @@
+
+body {
+    background-color: #e0ffff; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #b0e0e6;
+    padding: 20px;
+    border-bottom: 3px solid #7fc5d6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 10px 0 5px;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.1em;
+    margin: 5px 0 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #007b8a;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin: 40px 0;
+    background-color: #f8ffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #004b58;
+    margin-bottom: 15px;
+}
+
+section p {
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 750px;
+    font-size: 1.05em;
+    line-height: 1.7;
+}
+
+img {
+    height: 220px;
+    width: 220px;
+    border-radius: 20px;
+    border: 3px solid #7fc5d6;
+    margin: 15px 0;
+    object-fit: cover;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    border: solid 3px #333;
+    margin: 25px auto 10px auto;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    border: solid 2px #555;
+    padding: 12px;
+    font-size: 1em;
+}
+
+th {
+    background-color: #b0e0e6;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #004b58;
+}
+
+footer {
+    background-color: #b0e0e6;
+    padding: 15px;
+    border-top: 3px solid #7fc5d6;
+    margin-top: 40px;
+    font-style: italic;
+}
+
+@media (max-width: 700px) {
+    img {
+        width: 160px;
+        height: 160px;
+    }
+
+    section {
+        margin: 25px 10px;
+        padding: 20px;
+    }
+
+    table { 
+        width: 95%;
+        font-size: 0.95em;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+}
+video{
+ border: 3px solid #7fc5d6;
+    width: 600px;
+    height: auto;
+}
+#parag{
+    text-align: center;
+}
+.para{
+    text-align: center;
+}
+.art{
+    text-align: center
+}
+.lista li{
+    font-size: large;
+}
+p{
+    text-align: center;
+}
+#Meio{
+    text-align: center;
+}
